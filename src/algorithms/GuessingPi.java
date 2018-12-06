@@ -29,8 +29,7 @@ System.out.println(pi.charAt(3));
 			//    NOTE: The number of digits in your string will be
 			//       yourStringVariable.length()
 for(int i=4 ; i<10 ; i++) {
-	
-
+	aaa
 				// 5. Ask the user for the NEXT digit of pi.
 String digit = JOptionPane.showInputDialog("What is the next digit of pi?");
  			
