@@ -2,12 +2,25 @@ package nested_loops;
 
 public class ForLoopGauntlet {
 public static void main(String[] args) {
-	int years = 0;
-	for(int i=2006; i<2019; i++) {
+	for(int i=0 ; i<3 ; i++) {
+		for(int a=0 ; a<3 ; a++) {
+			System.out.println(i + " " + a + " " + i + " " );
+		}
+	}
+	//for(int i=0; i<3 ; i++) {
+		
+		//for(int a=0 ; a<3 ; a++) {
+			//System.out.println(i + " " + a);
+			//}
+		//}
+		
+	//}
+	//int years = 0;
+	//for(int i=2006; i<2020; i++) {
 		
 	
-		System.out.println("in " + i + " i was " + years++ );
-	}
+		//System.out.println("in " + i + " i was " + years++ );
+	//}
 	//for(int i=7 ; i<778; i++) {
 		//if(i%7==0) {
 			//System.out.println(i);
@@ -39,6 +52,6 @@ public static void main(String[] args) {
 	//System.out.println(i + " is even");
 	
 }
-
 }
+
 
