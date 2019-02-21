@@ -2,9 +2,9 @@ package nested_loops;
 
 public class ForLoopGauntlet {
 	public static void main(String[] args) {
-for(int i=1 ; i<6 ; i+=6) {
-	for(int o=0 ; o<4; o++) {
-		System.out.print( i + "*");
+for(int i=1 ; i<7 ; i+=1) {
+	for(int o=0 ; o<i; o++) {
+		System.out.print("*");
 	}
 	System.out.println();
 }
