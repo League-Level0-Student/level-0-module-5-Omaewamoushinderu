@@ -1,5 +1,7 @@
 package nested_loops;
 
+import java.util.Random;
+
 import javax.swing.JOptionPane;
 
 public class SkillPractice {
@@ -21,12 +23,12 @@ public class SkillPractice {
 		int dimes = Integer.parseInt(dime);
 
 		JOptionPane.showMessageDialog(null, "you have " + dimes * 10 + " cents");
-String height = JOptionPane.showInputDialog("How tall are you in inches");
+		String height = JOptionPane.showInputDialog("How tall are you in inches");
 		// Tell them how many cents they have (hint multiply by 10)
-int tall = Integer.parseInt(height);
-if(tall<36) {
-	JOptionPane.showMessageDialog(null, "You need to eat your wheaties");
-}
+		int tall = Integer.parseInt(height);
+		if (tall < 36) {
+			JOptionPane.showMessageDialog(null, "You need to eat your wheaties");
+		}
 		// Ask the user how tall they are (inches)
 
 		// If they are shorter than 36 inches, tell them to eat their Wheaties
@@ -34,27 +36,30 @@ if(tall<36) {
 	}
 
 	void skill2() { // Write a loop to print every third number between 1 and 30 to the console
-for(int i=0 ; i<31 ; i++) {
-	if(i%3==0) {
-		System.out.println(i);
+		for (int i = 0; i < 31; i++) {
+			if (i % 3 == 0) {
+				System.out.println(i);
+			}
+
+		}
 	}
-	
-}
-}
-	
 
 	private void println(int i) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	void skill3() { // Get a random number that is less than 20 and print it to the console
-
+		Random r = new Random();
+		int num = r.nextInt(20);
+		System.out.println(num);
 		// Get another random number that is less than 10 and print it to the console
-
+		Random a = new Random();
+		int m = r.nextInt(10);
+		System.out.println(m);
 		// Using a pop-up, tell the user the difference between the numbers // Hint: use
 		// subtraction
-
+JOptionPane.showMessageDialog(null, num - m);
 	}
 
 	void skill4() { // In a pop-up, ask the user for the city they live in
