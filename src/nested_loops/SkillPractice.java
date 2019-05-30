@@ -48,7 +48,7 @@ public class SkillPractice {
 		// TODO Auto-generated method stub
 
 	}
-
+a
 	void skill3() { // Get a random number that is less than 20 and print it to the console
 		Random r = new Random();
 		int num = r.nextInt(20);
